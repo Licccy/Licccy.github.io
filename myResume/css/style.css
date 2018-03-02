@@ -1,3 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
 body {
   background: #3acfff;
 }
@@ -171,7 +178,7 @@ body {
 }
 
 .self-info .info-header {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -181,7 +188,7 @@ body {
 }
 
 .self-info .contact-list {
-    width: 215px;
+    width: 240px;
     margin: 30px auto;
 }
 
@@ -190,7 +197,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 400px;
     height: 80px;
     padding: 5px;
     border-radius: 5px;
@@ -289,7 +295,7 @@ body {
 }
 
 .container-horizontal .project-title {
-    margin-top: 15px;
+    margin-top: 25px;
     font-size: 30px;
     text-align: center;
 }
